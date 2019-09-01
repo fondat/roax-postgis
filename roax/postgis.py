@@ -1,11 +1,10 @@
 """Module to manage resource items in a PostgreSQL database with PostGIS extensions."""
 
 import roax.geo as geo
-import roax.postgresql as postgresql
-import roax.schema as s
+import roax.schema
 
 
-_bytes = s.bytes(format="hex")
+_bytes = roax.schema.bytes(format="hex")
 
 
 class _GeometryAdapter:
