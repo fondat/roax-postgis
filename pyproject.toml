@@ -5,7 +5,7 @@ target-version = ['py36', 'py37', 'py38']
 [tool.poetry]
 name = "roax-postgis"
 module = "roax.postgis"
-version = "1.0.0"
+version = "1.0.1"
 description = "PostGIS extension for Roax."
 readme = "README.md"
 authors = ["Paul Bryan <pbryan@anode.ca>"]
