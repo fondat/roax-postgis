@@ -1,4 +1,4 @@
-# roax-postgis
+# Roax-PostGIS
 
 [![PyPI](https://badge.fury.io/py/roax-postgis.svg)](https://badge.fury.io/py/roax-postgis)
 [![License](https://img.shields.io/github/license/roax/roax-postgis.svg)](https://github.com/roax/roax-postgis/blob/master/LICENSE)
@@ -7,4 +7,17 @@
 [![Codecov](https://codecov.io/gh/roax/roax-postgis/branch/master/graph/badge.svg)](https://codecov.io/gh/roax/roax-postgis)
 [![Black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 
-PostGIS extension for Roax. 
+Roax-PostGIS: PostGIS extension for Roax.
+
+## Develop
+
+```
+poetry install
+poetry run pre-commit install
+```
+
+## Test
+
+```
+poetry run pytest
+```
